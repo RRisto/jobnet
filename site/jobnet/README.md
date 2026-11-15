@@ -1,5 +1,5 @@
-# Embeddable jobnet page
+# Jobnet interactive page
 
-This is a small static page for inclusion in `rristo.github.io`. Copy the entire `site/jobnet/` directory into the website repository (for example as `jobnet/`) and keep its `charts/` subdirectory alongside `index.html`. It needs no build step. Interactive charts load Plotly.js 3.0.1 from the public Plotly CDN.
+This page is published at [ristohinno.com/jobnet](https://ristohinno.com/jobnet/). The same page and its chart files are kept here under `site/jobnet/`; the personal website serves them from its own `/jobnet/` path.
 
-Open `index.html` directly in a browser to preview.
+Plotly.js is loaded from the public Plotly CDN. This page uses the original Frey–Osborne analysis and article data, with no ILO comparison.
