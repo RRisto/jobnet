@@ -1,0 +1,14 @@
+The ILO 2025 task exposure tree JSON is adapted from:
+
+Gmyrek, P., Berg, J., Kamiński, K., Konopczyński, F., Ładna, A., Nafradi, B.,
+Rosłaniec, K., Troszyński, M. (2025). Generative AI and Jobs: A Refined Global
+Index of Occupational Exposure. ILO Working Paper 140. Geneva: International
+Labour Office. https://doi.org/10.54394/HETP0387
+
+The source repository states that the work is licensed under Creative
+Commons Attribution 4.0 International (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+Changes made here: task scores were extracted from the published occupation
+tree and aggregated into an equal-weight task mean for matched occupations.
+The source's occupational exposure gradient labels are retained.

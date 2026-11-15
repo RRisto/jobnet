@@ -1,0 +1,25 @@
+project_occ_id,project_occupation,isco08_code,isco08_title,ilo_2025_task_mean,ilo_2025_task_sd_population,ilo_2025_task_count,ilo_2025_gradient,frey_osborne_probability,gpt4_beta,gpt4_human_beta,title_match_method
+15,construction managers,1323,Construction managers,0.33840909,0.05804850,11,Minimal Exposure,0.071,0.4444444444444445,0.4,normalized_exact_isco_title
+47,financial analysts,2413,Financial analysts,0.61805556,0.05785252,9,Exposed: Gradient 4,0.23,,,normalized_exact_isco_title
+73,chemical engineers,2145,Chemical engineers,0.35162500,0.11300325,8,Minimal Exposure,0.017,0.46153846153846156,0.34615384615384615,normalized_exact_isco_title
+74,civil engineers,2142,Civil engineers,0.30214286,0.05534677,7,Not Exposed,0.019,0.4464285714285714,0.375,normalized_exact_isco_title
+77,environmental engineers,2143,Environmental engineers,0.38138889,0.06778347,9,Minimal Exposure,0.018,0.5555555555555556,0.5,normalized_exact_isco_title
+81,mechanical engineers,2144,Mechanical engineers,0.32339286,0.06228074,7,Not Exposed,0.011,0.45348837209302323,0.37209302325581395,normalized_exact_isco_title
+96,economists,2631,Economists,0.55458333,0.07832114,12,Exposed: Gradient 3,0.43,0.5,0.4583333333333333,normalized_exact_isco_title
+98,psychologists,2634,Psychologists,0.39055556,0.12731074,9,Exposed: Gradient 1,0.007,,,normalized_exact_isco_title
+129,actors,2655,Actors,0.31428571,0.13641922,7,Minimal Exposure,0.37,0.1875,0.15625,normalized_exact_isco_title
+132,dancers and choreographers,2653,Dancers and choreographers,0.19354167,0.09253495,6,Not Exposed,0.067,,,normalized_exact_isco_title
+142,photographers,3431,Photographers,0.39031250,0.11054155,8,Exposed: Gradient 1,0.021,0.38541666666666663,0.21875,normalized_exact_isco_title
+145,dentists,2261,Dentists,0.14925000,0.06069854,12,Not Exposed,0.010333333,,,normalized_exact_isco_title
+148,pharmacists,2262,Pharmacists,0.33234615,0.08631057,13,Minimal Exposure,0.012,0.42857142857142855,0.39999999999999997,normalized_exact_isco_title
+159,veterinarians,2250,Veterinarians,0.14194444,0.04573137,9,Not Exposed,0.038,0.2702702702702703,0.22972972972972974,normalized_exact_isco_title
+171,medical records and health information technicians,3252,Medical records and health information technicians,0.51625000,0.09271091,6,Exposed: Gradient 3,0.91,,,normalized_exact_isco_title
+180,medical assistants,3256,Medical assistants,0.34600000,0.21961671,10,Exposed: Gradient 1,0.3,0.358974358974359,0.14102564102564102,normalized_exact_isco_title
+194,police officers,5412,Police officers,0.13937500,0.02928177,4,Not Exposed,0.334,,,normalized_exact_isco_title
+203,cooks,5120,Cooks,0.18400000,0.06014269,7,Not Exposed,0.885,,,normalized_exact_isco_title
+205,bartenders,5132,Bartenders,0.26100000,0.11488690,10,Not Exposed,0.77,0.19444444444444442,0.1388888888888889,normalized_exact_isco_title
+320,glaziers,7125,Glaziers,0.13687500,0.00369755,4,Not Exposed,0.73,0.08333333333333333,0.03125,normalized_exact_isco_title
+321,insulation workers,7124,Insulation workers,0.12708333,0.01543917,6,Not Exposed,0.735,,,normalized_exact_isco_title
+325,roofers,7121,Roofers,0.12625000,0.07027846,6,Not Exposed,0.9,0.04,0.0,normalized_exact_isco_title
+326,sheet metal workers,7213,Sheet-metal workers,0.20642857,0.08545944,7,Not Exposed,0.82,0.06578947368421052,0.039473684210526314,normalized_exact_isco_title
+400,sewing machine operators,8153,Sewing machine operators,0.14781250,0.03027059,8,Not Exposed,0.89,0.08139534883720931,0.023255813953488372,normalized_exact_isco_title
