@@ -93,5 +93,25 @@
     <p>Mudelistsenaariumid on näitlikud, mitte prognoosid. Automatiseerimisega kokkupuude ei ole tõenäosus, et töökoht kaob.</p>
     <p>Põhineb del Rio-Chanona jt 2021. aasta artiklil. <a href="https://doi.org/10.1098/rsif.2020.0898" target="_blank" rel="noopener">Loe algset artiklit</a>.</p>
   </div></footer>
+  <script>
+    (() => {
+      const heights = {"figure-1b":700, "figure-6":680, "shock":680, "traps":600, "beveridge":560};
+      function resizeChart(frame) {
+        const height = heights[frame.closest("section")?.id];
+        const doc = frame.contentDocument;
+        const win = frame.contentWindow;
+        const graph = doc?.querySelector(".plotly-graph-div");
+        if (!height || !graph || !win?.Plotly) return;
+        doc.documentElement.style.overflow = "hidden";
+        doc.body.style.overflow = "hidden";
+        graph.style.height = `${height}px`;
+        win.Plotly.relayout(graph, {height});
+      }
+      document.querySelectorAll("main iframe").forEach(frame => {
+        frame.addEventListener("load", () => resizeChart(frame));
+        if (frame.contentDocument?.readyState === "complete") resizeChart(frame);
+      });
+    })();
+  </script>
 </body>
 </html>
