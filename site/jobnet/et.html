@@ -30,11 +30,11 @@
     .caption { margin:5px 0 0; color:var(--muted); font-size:.92rem; }
     .tag { flex:none; padding:4px 9px; border-radius:999px; background:#edf3f5; color:var(--blue); font-size:.73rem; font-weight:700; }
     iframe { display:block; width:100%; border:0; border-radius:8px; background:white; }
-    #figure-1b iframe { height:700px; }
-    #figure-6 iframe { height:680px; }
-    #shock iframe { height:680px; }
-    #traps iframe { height:600px; }
-    #beveridge iframe { height:560px; }
+    #figure-1b iframe { height:500px; }
+    #figure-6 iframe { height:480px; }
+    #shock iframe { height:480px; }
+    #traps iframe { height:440px; }
+    #beveridge iframe { height:440px; }
     footer { padding:20px 0 36px; border-top:1px solid var(--line); color:var(--muted); font-size:.84rem; }
     footer p { margin:5px 0; }
     @media (max-width:650px) {
@@ -43,11 +43,11 @@
       section { padding:15px; }
       .section-head { display:block; }
       .tag { display:inline-block; margin-top:9px; }
-      #figure-1b iframe { height:700px; }
-      #figure-6 iframe { height:680px; }
-      #shock iframe { height:680px; }
-      #traps iframe { height:600px; }
-      #beveridge iframe { height:560px; }
+      #figure-1b iframe { height:420px; }
+      #figure-6 iframe { height:400px; }
+      #shock iframe { height:400px; }
+      #traps iframe { height:380px; }
+      #beveridge iframe { height:380px; }
     }
   </style>
 </head>
@@ -95,9 +95,9 @@
   </div></footer>
   <script>
     (() => {
-      const heights = {"figure-1b":700, "figure-6":680, "shock":680, "traps":600, "beveridge":560};
+      
       function resizeChart(frame) {
-        const height = heights[frame.closest("section")?.id];
+        const height = frame.clientHeight;
         const doc = frame.contentDocument;
         const win = frame.contentWindow;
         const graph = doc?.querySelector(".plotly-graph-div");
